@@ -1,0 +1,13 @@
+00 read r1
+01 setn r2 1
+02 setn r3 1
+03 neg r1 r1
+04 jeqzn r1 12
+05 write r2
+06 copy r4 r3
+07 add r4 r4 r2
+08 copy r2 r3
+09 copy r3 r4
+10 addn r1 1
+11 jumpn 04
+12 halt

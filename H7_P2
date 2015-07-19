@@ -1,0 +1,14 @@
+00 read r1
+01 read r2
+02 read r3
+03 read r4
+04 read r5
+05 neg r5 r5
+06 jeqzn r5 13
+07 mul r4 r4 r1
+08 add r4 r4 r2
+09 mod r4 r4 r3
+10 write r4
+11 addn r5 1
+12 jumpn 6
+13 halt

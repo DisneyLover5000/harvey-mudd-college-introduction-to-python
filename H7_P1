@@ -1,0 +1,8 @@
+00 read r1          # get # from user to r1
+01 mul r3 r1 r1     # squaring the value
+02 mul r3 r3 r1     # cubing the value
+03 write r3         # printing the current value
+04 jeqzn r3 07      # halting if the value is 0
+05 addn r3 -1       # decrementing
+06 jumpn 03         # looping until it terminates
+07 halt
